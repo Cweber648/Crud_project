@@ -88,3 +88,7 @@ nav li{
 .main-header {
 font-family: 'Playfair Display', serif;
 }
+
+li {
+  list-style-type: none;
+}
