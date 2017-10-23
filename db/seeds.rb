@@ -98,10 +98,29 @@ Album.create(name: "Real Talk", release_date: "November 9, 2004" , artist_id: 11
 # French Montana
 
 Artist.create(name: "French Montana", hails_from: "South Bronx", label: "Maybach Music")
+Producer.create(name: "Sean Combs", company: "Bad Boy")
 Producer.create(name: "", company: "")
-Producer.create(name: "", company: "")
-Album.create(name: "")
+Album.create(name: "Excuse my French", release_date: "May 21, 2013" , artist_id: 12 , producer_id: 16)
+Album.create(name: "Jungle Rules", release_date: "Jul 14, 2017" , artist_id: 12 , producer_id: 16)
 
+#Future
+
+Artist.create(name: "Future", hails_from: "Atlanta", label: "Epic")
+Producer.create(name: "Mike Will Made It" , company: "Interscope" )
+Producer.create(name: "Future" , company: "Epic" )
+Producer.create(name: "Metro Boomin" , company: "Epic" )
+Album.create(name: "Pluto", release_date: "April 13, 2012" , artist_id: 13, producer_id: 17 )
+Album.create(name: "Honest" , release_date: "April 22, 2014" , artist_id: 13, producer_id: 17 )
+Album.create(name: "DS2" , release_date: "July 17, 2015", artist_id: 13, producer_id: 18 )
+Album.create(name: "Evol", release_date: "February 6, 2016" , artist_id: 13, producer_id: 19 )
+Album.create(name: "Future", release_date: "February 17 2017" , artist_id: 13, producer_id: 18 )
+Album.create(name: "Hndrxx", release_date: "February 24, 2017", artist_id: 13, producer_id: 17 )
+
+#Gucci Mane
+
+Artist.create(name: "Gucci Mane", hails_from: "Atlanta", label: "Atlantic")
+Producer.create(name: "Zaytoven" , company: "Zaytown" )
+Album.create(name: "Trap House", release_date: "May 24, 2005", artist_id: 13, producer_id: 17 )
 
 
 
