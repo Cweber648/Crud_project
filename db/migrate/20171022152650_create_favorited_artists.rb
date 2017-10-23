@@ -1,4 +1,4 @@
-class CreateFavoritedArtists < ActiveRecord::Migration[5.1]
+class CreateFavoritedArtists < ActiveRecord::Migration
   def change
     create_table :favorited_artists do |t|
      t.integer :artist_id
